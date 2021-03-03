@@ -1,0 +1,597 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Dev coffee</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static '/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static '/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static '/vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+  <link href="{% static '/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static '/vendor/remixicon/remixicon.css' %}" rel="stylesheet">
+  <link href="{% static '/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{% static '/css/style.css' %}" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Bethany - v4.0.1
+  * Template URL: https://bootstrapmade.com/bethany-free-onepage-bootstrap-theme/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container">
+      <div class="header-container d-flex align-items-center justify-content-between">
+        <div class="logo">
+          <h1 class="text-light"><a href="index.html"><span>Dev coffee</span></a></h1>
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        </div>
+
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+            <li><a class="nav-link scrollto" href="#about">About</a></li>
+            <li><a class="nav-link scrollto" href="#services">Services</a></li>
+            <li><a class="nav-link scrollto " href="#Menu">Menu</a></li>
+            <li><a class="nav-link scrollto" href="#barista">Barista</a></li>
+            <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+            <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+
+      </div><!-- End Header Container -->
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container text-center position-relative" data-aos="fade-in" data-aos-delay="200">
+      <h1>Focus on your work with dev coffee</h1>
+      <h2>2021년 딜리버리 서비스 실시!</h2>
+      <a href="#barista" class="btn-get-started scrollto">바리스타 소개</a>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="row content">
+          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+            <h2>Dev coffee</h2>
+            <h3>데브 커피가 선사하는 특별한 경험, 이젠 집에서도 즐기세요</h3>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left" data-aos-delay="200">
+            <p>
+              데브 커피는 세계 바리스타 대회 수상자와 스타벅스 리저브 메뉴 연구자 출신들로 구성된 대한민국 최고의 카페입니다.
+              남미에서 직접 수입한 원두를 숙성시켜 만든 고품격 커피와 브런치를 즐기세요.
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i> 개발자 및 디자이너를 위한 전 좌석 콘센트 구비</li>
+              <li><i class="ri-check-double-line"></i> 앱을 통한 주문 메뉴 딜리버리 가능 </li>
+              <li><i class="ri-check-double-line"></i> 최고급 인테리어와 시설</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts">
+      <div class="container">
+
+        <div class="row counters">
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="90" data-purecounter-duration="1"
+              class="purecounter"></span>
+            <p>메뉴 개수</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="24521" data-purecounter-duration="1"
+              class="purecounter"></span>
+            <p>누적 주문 건수</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="11" data-purecounter-duration="1"
+              class="purecounter"></span>
+            <p>전문 바리스타 인원</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="14" data-purecounter-duration="1"
+              class="purecounter"></span>
+            <p>셰프</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+
+    <!-- ======= Why Us Section ======= -->
+    <section id="why-us" class="why-us">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-4 d-flex align-items-stretch" data-aos="fade-right">
+            <div class="content">
+              <h3>왜 데브 커피를 선택해야하나요?</h3>
+              <p>
+                커피만 먹으면 끝나는 카페가 아닌 삶의 여유와 행복을 느낄 수 있는 서비스를 제공하는 데브 커피입니다.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-8 d-flex align-items-stretch">
+            <div class="icon-boxes d-flex flex-column justify-content-center">
+              <div class="row">
+                <div class="col-xl-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <i class="bx bx-receipt"></i>
+                    <h4>분기마다 신메뉴 개발 </h4>
+                  </div>
+                </div>
+                <div class="col-xl-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <i class="bx bx-cube-alt"></i>
+                    <h4>고객 편의를 위한 인테리어</h4>
+                  </div>
+                </div>
+                <div class="col-xl-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="300">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <i class="bx bx-images"></i>
+                    <h4>추억의 공간</h4>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End .content-->
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Why Us Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="section-title" data-aos="fade-right">
+              <h2>제공되는 서비스</h2>
+              <p>최고의 맛과 최고의 시설을 경험하세요</p>
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <div class="row">
+              <div class="col-md-6 d-flex align-items-stretch">
+                <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
+                  <div class="icon"><i class="bx bxl-dribbble"></i></div>
+                  <h4><a href="">카페 내부 취식 가능</a></h4>
+                  <p>집이었으면 좋겠다! 라는 생각이 드는 카페 내부 인테리어에서 편안한 취식을 즐기실 수 있습니다.</p>
+                </div>
+              </div>
+
+              <div class="col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+                <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
+                  <div class="icon"><i class="bx bx-file"></i></div>
+                  <h4><a href="">딜리버리 서비스</a></h4>
+                  <p>배달의 민족, 요기요 등을 통해 딜리버리 서비스가 가능합니다. </p>
+                </div>
+              </div>
+
+              <div class="col-md-6 d-flex align-items-stretch mt-4">
+                <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
+                  <div class="icon"><i class="bx bx-tachometer"></i></div>
+                  <h4><a href="">쿠킹 클래스</a></h4>
+                  <p>저희 바리스타와 셰프들의 노하우를 알려드리는 쿠킹 클래스가 정기적으로 진행됩니다.</p>
+                </div>
+              </div>
+
+              <div class="col-md-6 d-flex align-items-stretch mt-4">
+                <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
+                  <div class="icon"><i class="bx bx-world"></i></div>
+                  <h4><a href="">맞춤형 요리</a></h4>
+                  <p>고객님께서 원하시는 요구사항에 맞추어 요리를 진행해드립니다.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="Menu" class="Menu">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-left">
+          <h2>Signature MENU</h2>
+          <p>오직 데브 커피에서만 맛볼수 있는 데브커피만의 시그니처 메뉴입니다.</p>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">모든 메뉴</li>
+              <li data-filter=".filter-coffee">커피</li>
+              <li data-filter=".filter-cook">요리</li>
+              <li data-filter=".filter-dessert">디저트</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-coffee">
+            <div class="portfolio-wrap">
+              <img src="{% static '/img/portfolio/coffee1.jpg'%}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>세상에서 제일 맛있는 커피</h4>
+                <p>coffee</p>
+                <div class="portfolio-links">
+                  <a href="{% static '/img/portfolio/coffee1.jpg'%}" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="세상에서 제일 맛있는 커피"><i class="bx bx-plus"></i></a>
+                  <a href="{% url 'detail' %}" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-dessert">
+            <div class="portfolio-wrap">
+              <img src="{% static '/img/portfolio/dessert3.jpg'%}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>dessert3</h4>
+                <p>dessert</p>
+                <div class="portfolio-links">
+                  <a href="{% static '/img/portfolio/dessert3.jpg'%}" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="dessert3"><i class="bx bx-plus"></i></a>
+                  <a href="{% url 'detail' %}" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-coffee">
+            <div class="portfolio-wrap">
+              <img src="{% static '/img/portfolio/coffee2.jpg'%}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>coffee2</h4>
+                <p>coffee</p>
+                <div class="portfolio-links">
+                  <a href="{% static '/img/portfolio/coffee2.jpg'%}" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="coffee2"><i class="bx bx-plus"></i></a>
+                  <a href="{% url 'detail' %}" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cook">
+            <div class="portfolio-wrap">
+              <img src="{% static '/img/portfolio/cooking2.jpg'%}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>cook 2</h4>
+                <p>cook</p>
+                <div class="portfolio-links">
+                  <a href="{% static '/img/portfolio/cooking2.jpg'%}" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="cook 2"><i class="bx bx-plus"></i></a>
+                  <a href="{% url 'detail' %}" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-dessert">
+            <div class="portfolio-wrap">
+              <img src="{% static '/img/portfolio/dessert2.jpg'%}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>dessert2</h4>
+                <p>dessert</p>
+                <div class="portfolio-links">
+                  <a href="{% static '/img/portfolio/dessert2.jpg'%}" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="dessert2"><i class="bx bx-plus"></i></a>
+                  <a href="{% url 'detail' %}" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-coffee">
+            <div class="portfolio-wrap">
+              <img src="{% static '/img/portfolio/coffee3.jpg'%}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>coffee3</h4>
+                <p>coffee</p>
+                <div class="portfolio-links">
+                  <a href="{% static '/img/portfolio/coffee3.jpg'%}" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="coffee3"><i class="bx bx-plus"></i></a>
+                  <a href="{% url 'detail' %}" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cook">
+            <div class="portfolio-wrap">
+              <img src="{% static '/img/portfolio/cooking1.jpg'%}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>cook1</h4>
+                <p>cook</p>
+                <div class="portfolio-links">
+                  <a href="{% static 'img/portfolio/cooking1.jpg'%}" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="cook1"><i class="bx bx-plus"></i></a>
+                  <a href="{% url 'detail' %}" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cook">
+            <div class="portfolio-wrap">
+              <img src="{% static 'img/portfolio/cooking3.jpg'%}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>cook 3</h4>
+                <p>cook</p>
+                <div class="portfolio-links">
+                  <a href="{% static '/img/portfolio/cooking3.jpg'%}" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="cook3"><i class="bx bx-plus"></i></a>
+                  <a href="{% url 'detail' %}" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-dessert">
+            <div class="portfolio-wrap">
+              <img src="{% static '/img/portfolio/dessert1.jpg'%}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>dessert1</h4>
+                <p>dessert</p>
+                <div class="portfolio-links">
+                  <a href="{% static '/img/portfolio/dessert1.jpg'%}" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="dessert1"><i class="bx bx-plus"></i></a>
+                  <a href="{% url 'detail' %}" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Team Section ======= -->
+    <section id="barista" class="barista">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="section-title" data-aos="fade-right">
+              <h2>Barista</h2>
+              <p>데브 커피의 바리스타를 소개합니다.</p>
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <div class="row">
+
+              <div class="col-lg-6">
+                <div class="member" data-aos="zoom-in" data-aos-delay="100">
+                  <div class="pic"><img src="{% static '/img/team/team-1.jpg'%}" class="img-fluid" alt=""></div>
+                  <div class="member-info">
+                    <h4>Walter White</h4>
+                    <span>총괄 바리스타</span>
+                    <p>강남점,역삼점 총괄</p>
+                    <div class="social">
+                      <a href=""><i class="ri-twitter-fill"></i></a>
+                      <a href=""><i class="ri-facebook-fill"></i></a>
+                      <a href=""><i class="ri-instagram-fill"></i></a>
+                      <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6 mt-4 mt-lg-0">
+                <div class="member" data-aos="zoom-in" data-aos-delay="200">
+                  <div class="pic"><img src="{% static '/img/team/team-2.jpg'%}" class="img-fluid" alt=""></div>
+                  <div class="member-info">
+                    <h4>Sarah Jhonson</h4>
+                    <span>최고 바리스타</span>
+                    <p>여의도점</p>
+                    <div class="social">
+                      <a href=""><i class="ri-twitter-fill"></i></a>
+                      <a href=""><i class="ri-facebook-fill"></i></a>
+                      <a href=""><i class="ri-instagram-fill"></i></a>
+                      <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6 mt-4">
+                <div class="member" data-aos="zoom-in" data-aos-delay="300">
+                  <div class="pic"><img src="{% static '/img/team/team-3.jpg'%}" class="img-fluid" alt=""></div>
+                  <div class="member-info">
+                    <h4>William Anderson</h4>
+                    <span>총괄 셰프</span>
+                    <p>인청공항점</p>
+                    <div class="social">
+                      <a href=""><i class="ri-twitter-fill"></i></a>
+                      <a href=""><i class="ri-facebook-fill"></i></a>
+                      <a href=""><i class="ri-instagram-fill"></i></a>
+                      <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6 mt-4">
+                <div class="member" data-aos="zoom-in" data-aos-delay="400">
+                  <div class="pic"><img src="{% static '/img/team/team-4.jpg'%}" class="img-fluid" alt=""></div>
+                  <div class="member-info">
+                    <h4>Amanda Jepson</h4>
+                    <span>총괄 셰프</span>
+                    <p>광화문점</p>
+                    <div class="social">
+                      <a href=""><i class="ri-twitter-fill"></i></a>
+                      <a href=""><i class="ri-facebook-fill"></i></a>
+                      <a href=""><i class="ri-instagram-fill"></i></a>
+                      <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <div class="section-title">
+              <h2>찾아오시는길 & 연락처</h2>
+              <p>체인 문의, 기타 문의사항은 아래 연락처로 연락주세요</p>
+            </div>
+          </div>
+
+          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="100">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1581.1382961553936!2d126.81828297600565!3d37.57210412080841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDM0JzE5LjYiTiAxMjbCsDQ5JzA5LjgiRQ!5e0!3m2!1sko!2skr!4v1614075376072!5m2!1sko!2skr"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <div class="info mt-4">
+              <i class="bi bi-geo-alt"></i>
+              <h4>본사 찾아오시는길:</h4>
+              <p>서울 중구 양천로 214길 데브커피</p>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 mt-4">
+                <div class="info">
+                  <i class="bi bi-envelope"></i>
+                  <h4>Email:</h4>
+                  <p>info@example.com</p>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="info w-100 mt-4">
+                  <i class="bi bi-phone"></i>
+                  <h4>연락처:</h4>
+                  <p>+1 5589 55488 55s</p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Dev coffee</h3>
+            <p>
+              대한민국 서울시 <br>
+              중구 양천로 213길<br>
+              데브 커피 <br><br>
+              <strong>Phone:</strong> +1 5589 55488 55<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-md-flex py-4">
+
+      <div class="me-md-auto text-center text-md-start">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Bethany</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bethany-free-onepage-bootstrap-theme/ -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static '/vendor/aos/aos.js'%}"></script>
+  <script src="{% static '/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static '/vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static '/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static '/vendor/php-email-form/validate.js' %}"></script>
+  <script src="{% static '/vendor/purecounter/purecounter.js' %}"></script>
+  <script src="{% static '/vendor/swiper/swiper-bundle.min.js' %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static '/js/main.js' %}"></script>
+
+</body>
+
+</html>
